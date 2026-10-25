@@ -1,0 +1,21 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.{ps1,bat,cmd}]
+end_of_line = crlf
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Windows PowerShell 5.1 needs a BOM to decode non-ASCII source reliably.
+[*.ps1]
+charset = utf-8-bom
+end_of_line = crlf

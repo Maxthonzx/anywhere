@@ -1,0 +1,42 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 密钥 / 本地配置（每台机器单独放，绝不进 Git）
+# 文件名与 scripts/safety.sh 对齐。同步脚本按大小写不敏感匹配；
+# 这里写出小写形式，Windows / macOS 默认 core.ignorecase=true 会一并忽略。
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_dsa
+id_ed25519
+id_ecdsa
+credentials.json
+.netrc
+.npmrc
+.pypirc
+
+# 依赖与构建产物
+node_modules/
+.venv/
+venv/
+__pycache__/
+dist/
+build/
+
+# 日志与临时文件
+*.log
+tmp/
+.cache/
+
+# 编辑器
+.idea/
+*.swp
