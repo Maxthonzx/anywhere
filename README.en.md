@@ -1,5 +1,8 @@
 # anywhere
 
+> [!WARNING]
+> **This project was written with AI by a product manager who can't code. Please use it with caution. If it helps you, that would make me very happy.**
+
 [简体中文](README.md) | [English](README.en.md)
 
 ![How anywhere works: Mac and Windows computers commit, fetch, merge, and push to allowlisted remotes. An unreachable remote is skipped and retried later.](docs/images/how-it-works.en.png)

@@ -1,5 +1,8 @@
 # anywhere
 
+> [!WARNING]
+> **这个项目是一个不懂代码的产品经理用 AI 写的，请谨慎使用。如果能帮到你，我会很开心。**
+
 [简体中文](README.md) | [English](README.en.md)
 
 ![anywhere 的工作原理：多台 Mac 和 Windows 对白名单里的远程做提交、拉取、合并和推送；连不上的远程先跳过，下次再试](docs/images/how-it-works.zh-CN.png)
